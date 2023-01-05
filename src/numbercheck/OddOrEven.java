@@ -8,6 +8,7 @@ public class OddOrEven
     
     public static void CheckOddOrEven() 
     {
+        System.out.println("enter an integer to check if even or odd");
        int x;
       Scanner in = new Scanner(System.in);
       x = in.nextInt();
